@@ -1,0 +1,13 @@
+name: titanic-mlops-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - pandas
+    - scikit-learn
+    - mlflow==2.19.0
+    - dagshub
+    - matplotlib
+    - seaborn
